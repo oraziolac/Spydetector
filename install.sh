@@ -6,11 +6,10 @@ LOCALES=(de en es fr it pl pt ru)
 
 welcome_screen() {
 cat << "EOF"
-   __   _         __              _    _
-  (_   |_)  \_/  /__  | |   /\   |_)  | \
-  __)  |     |   \_|  |_|  /--\  | \  |_/
+   __   _        
+  (_   |_)  \_/  
+  __)  |     |   
 
-SpyGuard is a fork of TinyCheck, developped by Kaspersky.
 -----
 
 EOF
