@@ -45,28 +45,10 @@ The indicators of compromise (IOCs) linked to stalkerware are now fully managed 
 > It is worth mentioning that the IOCs are distributed under the **Creative Common BY-NC-SA** licence.
 > This imply a **non commercial use** of them. Please respect this licence and ask ECHAP for any question related to that.
 
-### Commercial use
-
-You can use SpyGuard in a commercial product. However, you can't use SpyGuard as the name of your product and you’re still required to follow the terms and conditions that the Apache License imposes, like refering to the SpyGuard project in customer documentation. Moreover, a sweet note to explain your use to the author is always appreciated, please see the contact below. You liked SpyGuard? Do not hesistate to make a donation!
-
-<a href="https://www.paypal.com/donate/?hosted_button_id=V77EASZEVTXKL"><img src="https://raw.githubusercontent.com/aha999/DonateButtons/master/Paypal.png" width="150" /></a>
-
-### Contact
-
-If you need an express help to understand the results of the analysis or have a specific demand/question, do not hesitate to contact [the author](https://twitter.com/felixaime) via Twitter or by sending an email at spyguard@protonmail.com. A bug? Do not hesitate to open a [new issue](https://github.com/SpyGuard/spyguard/issues).
-
-### They have contributed to or helped this project
-
-<p float="left">
-  <a href="https://echap.eu.org"><img src="https://user-images.githubusercontent.com/25131750/200112980-80adc6e6-c922-471d-ab50-9821b2ed484c.png" width="150" /></a>&nbsp;&nbsp;
-  <a href="https://www.sekoia.io"><img src="https://user-images.githubusercontent.com/25131750/200112989-f18c29a7-c947-4eb6-95e4-997fc97c5b4d.png" height="90" /></a>
-  <a href="https://www.lapostegroupe.com"><img src="https://user-images.githubusercontent.com/25131750/200187728-d67c6139-01af-4e64-9f32-096c028db6e1.png" height="90" /></a>
-
-</p>
 
 ##
 
-To work, Spyguard is using a lot of awesome opensource projects, libraries, and fonts, kudos to them:
+To work, Spydetector is using a lot of awesome opensource projects, libraries, and fonts, kudos to them:
 
 [Dumpcap](https://tshark.dev/capture/dumpcap/), 
 [Dig](https://github.com/tigeli/bind-utils), 
