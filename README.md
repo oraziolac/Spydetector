@@ -20,7 +20,7 @@ You need a debian-like operating system to install it easly by using the provide
 
 ```
 cd /tmp/ && git clone https://github.com/oraziolac/Spydetector
-cd spyguard && sudo bash install.sh
+cd Spydetector && sudo bash install.sh
 ```
 
 Once installed, you can go to the backend interface located at `https://localhost:8443` to manage the device and setup the right network interfaces to get it working. Please look at the [dedicated wiki page](https://github.com/SpyGuard/spyguard/wiki/Installing-SpyGuard) to get some tips regarding it.
