@@ -118,7 +118,7 @@
               current_version: false,
               jwt: "",
               update_available: false,
-              letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","GGḠGGGǤG¬G","UÚUUÜUɄUUU", "AAAAÄA¬AAA", "RЯRɌRRRɌʭR", "DD¬DDDDƋDD"]
+              letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","DDDDDDDD-d","UÚUUÜUɄUUU", "AAAAÄA¬AAA", "RЯRɌRRRɌʭR", "DD¬DDDDƋDD"]
           }
       },
       methods: {
@@ -168,7 +168,7 @@
                   this.letters.forEach(l => { res += l.charAt(this.generate_random(0, 9)) })
                   this.title = res;
               setTimeout(function(){
-                  this.title = "SPYGUARD";
+                  this.title = "SPYDETECTOR";
               }.bind(this), this.generate_random(30, 100));
           }.bind(this), this.generate_random(500, 10000));
       }
