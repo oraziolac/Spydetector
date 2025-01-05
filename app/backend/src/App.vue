@@ -107,7 +107,7 @@
 </style>
 <script>
   import axios from 'axios'
-  document.title = 'SpyGuard Backend'
+  document.title = 'Spydetector Backend'
 
   export default {
       name: 'backend',
