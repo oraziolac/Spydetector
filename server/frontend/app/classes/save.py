@@ -55,20 +55,20 @@ class Save():
             try:
                 if method == "usb":
                     cd = datetime.now().strftime("%d%m%Y-%H%M")
-                    if shutil.make_archive("{}/SpyGuard_{}".format(self.mount_point, cd), "zip", "/tmp/{}/".format(token)):
+                    if shutil.make_archive("{}/Spydetector_{}".format(self.mount_point, cd), "zip", "/tmp/{}/".format(token)):
                         shutil.rmtree("/tmp/{}/".format(token))
                         return jsonify({"status": True,
                                         "message": "Capture saved on the USB key"})
                 elif method == "url":
                     cd = datetime.now().strftime("%d%m%Y-%H%M")
-                    if shutil.make_archive("/tmp/SpyGuard_{}".format(cd), "zip", "/tmp/{}/".format(token)):
+                    if shutil.make_archive("/tmp/Spydetector_{}".format(cd), "zip", "/tmp/{}/".format(token)):
                         shutil.rmtree("/tmp/{}/".format(token))
-                        with open("/tmp/SpyGuard_{}.zip".format(cd), "rb") as f:
+                        with open("/tmp/Spydetector_{}.zip".format(cd), "rb") as f:
                             return send_file(
                                 io.BytesIO(f.read()),
                                 mimetype="application/octet-stream",
                                 as_attachment=True,
-                                attachment_filename="SpyGuard_{}.zip".format(cd))
+                                attachment_filename="Spydetector_{}.zip".format(cd))
             except:
                 return jsonify({"status": False,
                                 "message": "Error while saving capture"})
