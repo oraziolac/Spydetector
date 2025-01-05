@@ -16,7 +16,7 @@
   import Controls from "@/components/Controls.vue"
   import Modals from "@/components/Modals.vue"
 
-  document.title = 'SPYGUARD'
+  document.title = 'SPYDETECTOR'
 
   export default {
     name: 'app',
