@@ -1,4 +1,4 @@
-Copyright (C) 2022 Félix Aimé. All Rights Reserved.
+Copyright (C) 2025 Spydetector. All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -171,10 +171,7 @@ Copyright: 2000-2002, Japan Network Information Center
 License: BSD-4-clause
 
 Files: debian/
-Copyright: 2007-2017 LaMont Jones
-	   2013-2017 Michael Gilbert
-           2017 Ondřej Surý
-	   2008-2016 Jamie Strandboge
+
 License: ISC or MPL-2.0
 
 License: ISC
