@@ -18,8 +18,8 @@
             return {
                 internet: false,
                 message: "",
-                title: "SPYGUARD",
-                letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","GGḠGGGǤG¬G","UÚUUÜUɄUUU", "AAAAÄA¬AAA", "RЯRɌRRRɌʭR", "DD¬DDDDƋDD"]
+                title: "SPYDETECTOR",
+                letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","DDDDDDDD¬D","EEEEEEEE-EE", "TTTT-TTTTTTTTT", "EEEEEEEE-EEEE", "CC-CCCCCCCCCC", "TTTT-TTTTTTTTT", "OOOOOOOOO-O", "RRRRRRR-R"]
             }
         },
         methods: {
@@ -45,13 +45,13 @@
         },
         created: function() {
             window.access_point = ""
-            console.log("[splash-screen.vue] Welcome to SPYGUARD");
+            console.log("[splash-screen.vue] Welcome to SPYDETECTOR");
             setInterval(function(){
                     let res = ""
                     this.letters.forEach(l => { res += l.charAt(this.generate_random(0, 9)) })
                     this.title = res;
                 setTimeout(function(){
-                    this.title = "SPYGUARD";
+                    this.title = "SPYDETECTOR";
                 }.bind(this), this.generate_random(30, 100));
             }.bind(this), this.generate_random(500, 4000));
             this.delete_captures();
