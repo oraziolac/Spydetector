@@ -19,7 +19,7 @@ As it uses WiFi, SpyGuard can be used against a wide range of devices, such as s
 You need a debian-like operating system to install it easly by using the provided bash script. Once you've cloned the repository, just launch `install.sh` as root. Here are the command lines to do that:
 
 ```
-cd /tmp/ && git clone https://github.com/SpyGuard/spyguard
+cd /tmp/ && git clone https://github.com/oraziolac/Spydetector
 cd spyguard && sudo bash install.sh
 ```
 
