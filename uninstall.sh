@@ -1,11 +1,11 @@
 
 delete_folder(){
-    echo "[+] Deleting SpyGuard folders"
+    echo "[+] Deleting Spydetector folders"
     rm -rf /usr/share/spyguard/
 }
 
 delete_services(){
-    echo "[+] Deleting SpyGuard services"
+    echo "[+] Deleting Spydetector services"
 
     systemctl disable spyguard-frontend &> /dev/null
     systemctl disable spyguard-backend &> /dev/null
