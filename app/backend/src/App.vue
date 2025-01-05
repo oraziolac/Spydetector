@@ -114,11 +114,11 @@
       components: {},
       data() {
           return {
-              title: "SPYGUARD",
+              title: "SPYDETECTOR",
               current_version: false,
               jwt: "",
               update_available: false,
-              letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","DDDDDDDD-d","UÚUUÜUɄUUU", "AAAAÄA¬AAA", "RЯRɌRRRɌʭR", "DD¬DDDDƋDD"]
+              letters: ["SSS§ṠSSSSS","PPPþ⒫PPPP","YYYÿYYYÿYȲYY","DDDDDDDD-d","EEEEEEEE-E", "TTTTTTTTTT-TT", "EEEEEEEEEEE-E", "CCCCCCCCCCC", "TTTTTTTTTT-TT", "OOOOOOOOO-O", "RRRRRRRRRRR"]
           }
       },
       methods: {
