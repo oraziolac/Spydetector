@@ -1,4 +1,4 @@
-ctor{
+{
     "alerts": {
         "PROTO-01": {
             "title": "{} comunicazione in uscita dalla rete locale a {}.",
