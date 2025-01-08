@@ -1,4 +1,4 @@
-ctor<template>
+<template>
     <div class="backend-content" id="content">
       <div class="column col-8 col-xs-12">
           <div class="container">
