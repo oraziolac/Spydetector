@@ -24,8 +24,8 @@ analysis:
   - 5223
   whitelist: true
 backend:
-  login: userlogin
-  password: userpassword
+  login: spydetector
+  password: f7d9ae08fae385f337c9ddd963cce119530d44368ea1351aad15cbf70f923bb8
   remote_access: true
 frontend:
   backend_option: true
@@ -36,10 +36,10 @@ frontend:
   slideshow: true
   sparklines: true
   update: false
-  user_lang: userlang
+  user_lang: it
   virtual_keyboard: true
 network:
-  in: wlan
+  in: wlan0
   internet_check: https://1.1.1.1
   out: lo
   ssids:
